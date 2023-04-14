@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Itim&family=Ubuntu&display=swap');  
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .navbar{
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo{
+            height: 45px;
+            width: 120px;
+            margin-right: 40px;
+        }
+        .list{
+            list-style: none;
+        }
+        .first{
+            display: flex;
+        }
+        .list{
+            display: flex;
+        }
+        .list-item{
+            padding: 10px 20px;
+            font-weight: 600;
+        }
+        main{
+            display: flex;
+        }
+        main .content{
+            margin-left: 70px;
+            margin-top: 50px;
+        }
+        main .content h2{
+            font-size: 50px;
+            color: rgb(42, 12, 113);
+        }
+        #crush{
+            color: rgb(117, 44, 185);
+        }
+        main .content p{
+            margin-top: 20px;
+            color: rgb(138, 137, 137);
+        }
+        #img{
+            height: 400px;
+            width: 600px;
+            margin-right: 20px;
+        }
+        button{
+            color: white;
+            border: none;
+            background-color: rgb(89, 60, 184);
+            padding: 8px 12px;
+            border-radius: 8px;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        #contact{
+            margin-top: 10px;
+            margin-right: 20px;
+        }
